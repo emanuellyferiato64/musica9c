@@ -1,8 +1,10 @@
 h1 {
-    font-size: 50px;
+    font-size: 100px;
 }
 
 body {
-    background-color: blue;
+    background-color: rgb(96, 96, 209);
     color: azure;
+    text-transform: uppercase;
 }
+
