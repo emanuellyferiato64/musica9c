@@ -1,10 +1,47 @@
-h1 {
-    font-size: 50px;
-}
-
 body {
-    background-color: rgb(13, 13, 15);
-    color: azure;
+    background: linear-gradient(135deg, #120d1f, #25153d, #171225);
+    color: #f5eaff;
     text-transform: lowercase;
 }
 
+h1 {
+    font-size: 50px;
+    color: #d8b4fe;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 8px #8b5cf6;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 1px 1px 5px #8b5cf6;
+}
+
+.funk {
+    color: #d8b4fe;
+}
+
+.pagode {
+    color: #f9a8d4;
+}
+
+.poesia {
+    color: #93c5fd;
+}
+
+.sertanejo {
+    color: #fde68a;
+}
+
+.musica {
+    width: 80%;
+    max-width: 700px;
+    height: 400px;
+    margin: 0 auto 25px auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #8b5cf6;
+}
