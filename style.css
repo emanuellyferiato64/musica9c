@@ -1,23 +1,29 @@
 body {
     background: linear-gradient(
         135deg,
-        #ddd1f2,
-        #f7f2ff,
-        #d4c5eb
+        #08000f,
+        #160024,
+        #050008
     );
-    color: #40364f;
+
+    color: #ffffff;
     text-transform: lowercase;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(90deg, #8064a8, #b497d6);
-    color: transparent;
-    background-clip: text;
-    text-shadow: 2px 2px 8px #c4b5d9;
-    letter-spacing: 3px;
+    color: #ffffff;
+
+    text-shadow:
+        0 0 5px #b026ff,
+        0 0 15px #b026ff,
+        0 0 30px #b026ff,
+        0 0 50px #8a00ff;
+
+    letter-spacing: 5px;
+    margin-top: 40px;
 }
 
 h2 {
@@ -25,42 +31,86 @@ h2 {
     font-size: 28px;
     text-align: center;
     font-weight: bold;
-    text-shadow: 2px 2px 6px #c4b5d9;
+
     margin-top: 35px;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #c4b5d9;
+
+    border-bottom: 2px solid #b026ff;
 }
 
+/* FUNK */
 .funk {
-    color: #8b6bb3;
+    color: #d946ff;
+
+    text-shadow:
+        0 0 5px #d946ff,
+        0 0 15px #d946ff,
+        0 0 30px #d946ff,
+        0 0 50px #8a00ff;
 }
 
+/* PAGODE */
 .pagode {
-    color: #b77d9d;
+    color: #ff4fc3;
+
+    text-shadow:
+        0 0 5px #ff4fc3,
+        0 0 15px #ff4fc3,
+        0 0 30px #ff4fc3,
+        0 0 50px #ff008c;
 }
 
+/* POESIA */
 .poesia {
-    color: #6388b8;
+    color: #5c9dff;
+
+    text-shadow:
+        0 0 5px #5c9dff,
+        0 0 15px #5c9dff,
+        0 0 30px #5c9dff,
+        0 0 50px #0066ff;
 }
 
+/* SERTANEJO */
 .sertanejo {
-    color: #b59a52;
+    color: #ffd84d;
+
+    text-shadow:
+        0 0 5px #ffd84d,
+        0 0 15px #ffd84d,
+        0 0 30px #ffd84d,
+        0 0 50px #ff9900;
 }
 
+/* VÍDEOS */
 .musica {
     width: 80%;
     max-width: 700px;
     height: 400px;
+
     margin: 0 auto 25px auto;
     display: block;
 
-    /* bordas arredondadas */
     border-radius: 25px;
+    border: 3px solid #d946ff;
 
-    /* borda suave */
-    border: 3px solid #d8cbea;
+    box-shadow:
+        0 0 8px #d946ff,
+        0 0 20px #b026ff,
+        0 0 40px #8a00ff;
 
-    /* sombra suave */
-    box-shadow: 0 5px 20px #b9a9d2;
+    transition: 0.3s;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+.musica:hover {
+    border-color: #ff4dff;
+
+    box-shadow:
+        0 0 12px #ff4dff,
+        0 0 30px #d946ff,
+        0 0 60px #8a00ff;
+
+    transform: scale(1.02);
 }
